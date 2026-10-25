@@ -1,0 +1,63 @@
+Third-party notices
+===================
+
+Copyright (C) 2021-2026 Gerhard Malberg.
+
+SPDX-License-Identifier: CERN-OHL-P-2.0
+
+All original content in this repository, including documentation, metadata,
+tools and CAD assets, is licensed under CERN-OHL-P-2.0. The complete licence
+text is provided in LICENSE and LICENSES/CERN-OHL-P-2.0.txt.
+
+2026-10-24: the author confirmed this uniform licence for the initial public
+release; the obsolete mixed-licence map in LICENSE was replaced accordingly.
+
+
+CAD component audit result
+--------------------------
+
+Every symbol, footprint, STEP model, FreeCAD project, CadQuery source and
+generator in this repository is independently authored by Gerhard Malberg and
+identified as CERN-OHL-P-2.0 Covered Source in ASSET_PROVENANCE.csv.
+
+There is no third-party CAD content. This collection holds no SamacSys,
+restricted, upstream-derived or unverified component.
+
+
+Where provenance is recorded
+----------------------------
+
+Assets carry KiCad's own fields only. Licence, copyright and source are recorded
+once, in ASSET_PROVENANCE.csv, rather than duplicated into every asset.
+
+STEP files additionally carry licence, copyright and source in their own
+ISO 10303-21 FILE_DESCRIPTION and FILE_NAME header, and the FreeCAD projects
+carry them in their document properties. Those are the file formats' own
+metadata, not added fields, and there are no sidecar files.
+
+
+Manufacturer datasheet links
+----------------------------
+
+Datasheet and Source entries identify official manufacturer webpages used as
+factual references for dimensions and pin functions. A hyperlink does not copy,
+redistribute, or relicense the linked document.
+
+Dimensional facts taken from those documents - lead spans, pad layouts, body
+outlines, pin functions - are not themselves copyrightable subject matter. The
+CAD expression of them in this repository is original work.
+
+No manufacturer PDF is held in this repository.
+generate_original_kicad_assets.py emits a datasheet provenance row only when a
+PDF is present in the repository root, and marks any such row
+not_cleared_for_redistribution.
+
+
+Trademarks and warranty
+-----------------------
+
+All manufacturer, distributor, product, and service names and marks belong to
+their respective owners. Their use is descriptive only and implies no
+affiliation or endorsement. Assets are provided as-is, without warranty; verify
+dimensions, pin mappings, source links, licensing, and fitness before design or
+manufacture.

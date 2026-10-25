@@ -1,0 +1,22 @@
+# KiCad editor state and backups
+*-backups/
+*.bak
+*.bck
+*.lck
+*.lock
+*.tmp
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.FCBak
+~$*
+
+# Operating-system and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python bytecode
+__pycache__/
+*.pyc

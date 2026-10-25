@@ -1,0 +1,21 @@
+"""Run the original model generator through FreeCAD's color-aware GUI backend.
+
+Copyright 2026 Gerhard Malberg
+SPDX-License-Identifier: CERN-OHL-P-2.0
+"""
+
+from pathlib import Path
+import os
+import runpy
+import sys
+
+
+os.environ["FREECAD_AUTOCLOSE"] = "1"
+generator = Path(__file__).with_name("generate_original_freecad_models.py")
+# FreeCAD adds its own GUI arguments to sys.argv.  The generator treats its
+# arguments as optional model names, so reset argv for a complete library run.
+sys.argv = [str(generator)]
+runpy.run_path(
+    str(generator),
+    run_name="__main__",
+)

@@ -1,0 +1,14 @@
+* text=auto eol=lf
+
+*.kicad_sym text eol=lf
+*.kicad_mod text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.py text eol=lf
+
+*.step binary
+*.STEP binary
+*.stp binary
+*.STP binary
+*.FCStd binary

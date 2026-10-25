@@ -1,0 +1,22 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "7460305"
+		(pin_names (offset 0.508))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "H" (at 0 11.43 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "7460305" (at 0 10.16 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "custom_footprints:WE_7460305" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/7460305.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Wurth REDCUBE M5 press-fit high-current terminal" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "7460305_1_1"
+			(rectangle (start -3.81 8.89) (end 3.81 -3.81) (stroke (width 0.254) (type default)) (fill (type background)))
+			(pin passive line (at 0 -6.35 90) (length 2.54)
+				(name "TERMINAL" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27)))))
+		)
+	)
+)
